@@ -1,0 +1,8 @@
+## .gitignore 
+
+```bash
+bin/
+obj/
+*.user
+*.suo
+*.exe
