@@ -71,8 +71,7 @@
             }
         }
 
-        // methods:::
-        // -----------------------------------------------------------------
+        // methods
         private static void UpdatingExistingFiles()
         {
             Console.WriteLine("List of existing files");
@@ -122,7 +121,6 @@
             }
         }
 
-        // -----------------------------------------------------------------
         private static void ViewExistingSales()
         {
             Console.WriteLine("List of existing files");
@@ -148,7 +146,6 @@
             }
         }
 
-        // -----------------------------------------------------------------
         private static void ViewExistingFiles()
         {
             string[] files = Directory.GetFiles("./", ".csv"); // gets list of all the files from the root directory
@@ -159,7 +156,6 @@
             }
         }
 
-        // -----------------------------------------------------------------
         private static void RecordNewSalesExistingFile()
         {
             Console.WriteLine("Enter the name of your file (without extensions): ");
@@ -187,7 +183,6 @@
             }
         }
 
-        // -----------------------------------------------------------------
         private static void RecordNewSalesNewFile()
         {
             Console.WriteLine("Set a name for your file (without extensions): ");
