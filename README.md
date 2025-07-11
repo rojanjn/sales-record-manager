@@ -28,5 +28,6 @@ Users can add new sales, append to existing ones, view data, and update records 
 ## How to Run
 
 ```bash
+git clone https://github.com/rojanjn/sales-record-manager.git
 cd sales-record-manager/SalesRecordManager
 dotnet run
